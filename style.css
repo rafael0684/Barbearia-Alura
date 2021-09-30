@@ -1,48 +1,158 @@
-#banner {
-	width:100%;
+
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
 }
 
-.principal{
-	background: #CCCCCC;
+nav{
+	position: absolute;
+	top: 110px;
+	right: 0;
+
+}
+nav ul {
+	display: inline;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+body {
+	
+}
+
+#banner {
+	width: 100%;
+	display: inline;
+	margin-top: 20px;
+
+
+
+}
+.principal {
+	background: #cccccc;
 	padding: 30px;
 }
 
-.titulo-principal {
-	padding-left: 20px;
+.titulo-principal{
+	padding-left:20px ;
+	font-size: 3vw;
+	text-align: left;
+	padding: 20px;
+	font-weight: bold;
+
 }
 
-.titulo-centralizado {
-	text-align: center
-}
 
-p {
+
+
+
+
+
+main p {
+	font-size: 20px;
+}
+h3 {
+	font-size: 36px;
+
+	font-weight: bold ;
+	padding: 10px;
+}
+p{
 	text-align: center;
-}
+	text-decoration: none;
+	margin: 20px;
 
+}
 #missao {
-	font-size: 20px
-}
+	font-size: 20px;
 
+
+}
+strong {
+	font-weight: bold;
+}
 em strong {
 	color: #FF0000;
+	
 }
 
-.itens {
-	font-style: italic
+.itens{
+	font-style: italic;
+	font-size: 18px;
+
 }
 
 .beneficios {
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	
 	background: #FFFFFF;
 	padding: 20px;
+	text-align: center;
+	/*margin-left: 20px;*/
+	padding-bottom: 20px;
+
+
 }
 
-ul {
+.titulocentralizado{
+	text-align: center;
+	font-weight: bold;
+	
+
+}
+#bannerBeneficios {
+	width: 40%;
+	align-content: right;
+	border-radius: 10px 50px;
+
+}
+ul{
 	display: inline-block;
 	vertical-align: top;
 	width: 20%;
+	/*margin-right: 15%;*/
+
+}
+.todos-itens {
 	margin-right: 15%;
+	text-align: left;
+}
+.itens {
+	margin-left: 25px;
 }
 
-.imagembeneficios {
+.imagemBeneficios{
 	width: 50%;
+	
 }
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px ;
