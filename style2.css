@@ -141,3 +141,73 @@ td, th {
 	border: 1px solid #000000;
 	padding: 8px 15px;
 }
+@media screen and (max-width: 480px) { 
+	html {
+		width: 100%;
+	}
+	body {
+		width: 100%;
+		margin: 0 0 0 0;
+	}
+	.main{
+		width: 100%;
+	}
+	
+    .caixa {
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+    header{
+    	margin: 20px 0 0;
+    }
+    h1 {
+    text-align: center;
+	}
+	nav {
+    position:static;
+    text-align: center;
+    margin-bottom: 20px;
+	}
+	
+	p {
+		padding: 20px;
+
+	}
+	form{
+		display: inherit;
+		margin-left: 60px;
+	}
+	table{
+		margin: auto;
+
+	}
+	footer{
+		display: inherit;
+	}
+	.enviar{
+		display: inherit;
+	}
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
